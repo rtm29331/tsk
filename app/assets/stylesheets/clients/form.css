@@ -168,7 +168,7 @@
 }
 .delete-alert{
   border: black solid 1px;
-  background-color: rgb(238, 216, 21);
+  background-color: yellow;
   position: absolute;
   bottom: 200px;
   height: 300px;

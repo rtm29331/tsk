@@ -68,7 +68,7 @@
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">郵便番号</label>
-      <span class="form-any">任意 ハイフンなし</span>
+      <%# <span class="form-any">任意 ハイフンなし</span> %>
     </div>
     <%= f.text_field :post_num, class:"input-default", id:"postal-code", placeholder:"例）1234567", maxlength:"7" %>
   </div>
@@ -76,7 +76,7 @@
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">都道府県</label>
-      <span class="form-any">任意</span>
+      <%# <span class="form-any">任意</span> %>
     </div>
     <%= f.text_field :prefecture, class:"input-default", id:"prefecture", placeholder:"例）福岡県"%>
   </div>
@@ -84,7 +84,7 @@
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">市区町村</label>
-      <span class="form-any">任意</span>
+      <%# <span class="form-any">任意</span> %>
     </div>
     <%= f.text_field :city, class:"input-default", id:"city", placeholder:"例）福岡市中央区天神"%>
   </div>
@@ -92,7 +92,7 @@
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">番地</label>
-      <span class="form-any">任意</span>
+      <%# <span class="form-any">任意</span> %>
     </div>
     <%= f.text_field :details, class:"input-default", id:"addresses", placeholder:"例）1-1-1"%>
   </div>
@@ -100,7 +100,7 @@
   <div class="form-group">
     <div class='form-text-wrap'>
       <label class="form-text">建物名</label>
-      <span class="form-any">任意</span>
+      <%# <span class="form-any">任意</span> %>
     </div>
     <%= f.text_field :build_num, class:"input-default", id:"building", placeholder:"例）アクロスビル801"%>
   </div>
