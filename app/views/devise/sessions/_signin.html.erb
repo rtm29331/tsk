@@ -5,7 +5,7 @@
 
   <body>
     <div class="child-a">
-      <h3 class="text-title">ログイン</h3>
+      <%# <h3 class="text-title">ログイン</h3> %>
     </div>
     
     <%= form_with model: @user, class: 'registration-in', url: user_session_path, method: :post, local: true do |f| %>
@@ -29,12 +29,15 @@
           </div>
           <%= f.password_field :password, class:"input-default", id:"password", placeholder:"6文字以上の半角英数字" %>
             <%# <p class='info-text'>※英字と数字の両方を含めて設定してください</p> %>
+                    <form name="signin-btn">
+      <div class="signin-btn">
+        <%= f.submit "ログイン" , class:"signin-btn" %>
+          
+          
           </div> 
          </div>
         
-          <form name="signin-btn">
-      <div class="signin-btn">
-        <%= f.submit "ログイン" , class:"signin-btn" %>
+
          </form>
          </div>
     <% end %>
