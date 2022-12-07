@@ -1,0 +1,30 @@
+
+<%= render "a-header"%>
+<div class="contents">
+  <div class="indexs">
+    <div class="client-index">
+      <%= link_to '顧客一覧', clients_path, method: :get, class: "btn-a" %>
+    </div>
+    <div class="task-index">
+      <%= link_to '今週のタスク', new_task_path, method: :get, class: "btn-a" %>
+    </div>
+  </div>
+  <% @todays_task.each do |day| %>
+  <div class='today-item'>
+    <div class='date'>
+      <%= day[:month] %>/<%= day[:date] %> <%= day[:wday]%>
+    </div>
+    <div class='content'>
+      <% day[:tasks].zip(day[:cid]).each do |task, cid| %>
+        <% @c = Client.find_by(id: cid) %>
+        <% if @c.user_id == current_user.id %>
+          <div class='plan-list'>
+            <%=link_to client_path(@c.id), method: :get, class:"c-link" do %><%= "#{@c.last_name}様: " %><%end%>
+            <%= task %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <% end %>
+</div>
