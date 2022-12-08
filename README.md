@@ -93,10 +93,3 @@
 - belongs_to :client
 <br />
 
-## ER図
-<img width="653" alt="スクリーンショット 2021-01-04 23 03 24" src="https://user-images.githubusercontent.com/73294620/103543008-275dd100-4ee1-11eb-8d54-1689fbc0db35.png">
-<br />
-<br />
-<br />
-
-
