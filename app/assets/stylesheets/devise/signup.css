@@ -83,7 +83,8 @@
   font-size: 16px;
   resize: none;
   margin: 0 auto;
-  
+  position:relative;
+  top: 13px;
 }
 
 .info-text {

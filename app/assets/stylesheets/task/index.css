@@ -12,7 +12,7 @@
   border-radius: 10px;
 }
 .tasks-date{
-  width: 150px;
+  width: 300px;
   margin: 0 50px;
 }
 .tasks-client{
@@ -20,4 +20,9 @@
 }
 .tasks-task{
   width: 400px;
+}
+
+.tda-btn{
+  border-radius: 15px;
+  border: solid black 1px;
 }
