@@ -68,3 +68,7 @@ gem 'pry-rails'
 gem 'active_hash'
 
 gem "aws-sdk-s3", require: false
+
+group :production do
+  gem 'pg'
+end
