@@ -67,7 +67,6 @@ gem 'pry-rails'
 
 gem 'active_hash'
 
-gem 'nokogiri', '>= 1.13.10'
 
 group :production do
   gem 'pg'
