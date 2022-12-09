@@ -94,8 +94,10 @@
 <br />
 
 ユーザーの必要に応じて情報登録フォームの追加ができる顧客管理アプリです。
+
+
 | root | 
 ![e21bccb6de968b7040384f434d138ce8](https://user-images.githubusercontent.com/115970853/206650343-8dcec689-133f-40a1-aa7e-d8c0a2f47cd4.png)
 
 | 顧客一覧 |
-![2efbd00eca6c9be66ce5467dd778947e](https://user-images.githubusercontent.com/115970853/206651036-e18ed048-89a1-4865-a6d3-5af8e4a51de9.png)
+![5f25e08911c6d660161a15291335297c](https://user-images.githubusercontent.com/115970853/206652559-2128ada2-99c2-4eb8-b5ed-92092ebcea9c.png)
