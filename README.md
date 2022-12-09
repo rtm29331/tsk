@@ -159,3 +159,7 @@
   #### テスト<br>&emsp;&emsp;RSpec/ factory_bot
   #### 使用Gem<br>&emsp;&emsp;pry-rails/ devise/ rails-i18n<br>&emsp;&emsp; active_hash/ rubocop<br>&emsp;&emsp;factory_bot_rails/ rspec-rails
 <br />
+
+## ER図
+![5a46dd5647c8bd895509fdebbc0528ee](https://user-images.githubusercontent.com/115970853/206657951-5d94fae8-0ffc-433e-8e6c-f82fd790f793.png)
+<br />
