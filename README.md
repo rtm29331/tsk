@@ -94,4 +94,5 @@
 <br />
 
 ユーザーの必要に応じて情報登録フォームの追加ができる顧客管理アプリです。
-[VSCodeショートカット.pdf](https://github.com/rtm29331/tsk/files/10192655/VSCode.pdf)
+
+(https://github.com/rtm29331/tsk/files/10192655/VSCode.pdf)
