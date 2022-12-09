@@ -95,4 +95,4 @@
 
 ユーザーの必要に応じて情報登録フォームの追加ができる顧客管理アプリです。
 
-![image](https://github.com/rtm29331/tsk/files/10192655/VSCode.pdf)
+![logo](https://user-images.githubusercontent.com/115970853/206649618-28fa9805-985d-45ab-be19-d3fc6de26832.png)
