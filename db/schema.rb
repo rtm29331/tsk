@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2020_12_07_084442) do
     t.string "add_text8"
     t.string "add_text9"
     t.string "add_text10"
-    # t.bigint "client_id", null: false
+    t.bigint "client_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["client_id"], name: "index_addinfos_on_client_id"
@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 2020_12_07_084442) do
     t.string "city"
     t.string "details"
     t.string "build_num"
-    # t.bigint "user_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_clients_on_user_id"
@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(version: 2020_12_07_084442) do
     t.string "f_name8"
     t.string "f_name9"
     t.string "f_name10"
-    # t.bigint "user_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_forms_on_user_id"
@@ -69,8 +69,8 @@ ActiveRecord::Schema.define(version: 2020_12_07_084442) do
     t.string "task", null: false
     t.date "date", null: false
     t.integer "redirect", null: false
-    # t.bigint "client_id", null: false
-    # t.bigint "user_id", null: false
+    t.bigint "client_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["client_id"], name: "index_tasks_on_client_id"
