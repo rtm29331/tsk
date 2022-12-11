@@ -9,7 +9,7 @@
       <% @allclients.each do |c| %>
       <% if c.user_id == current_user.id %>
         <li class="lists" id= "lists">
-          <%=link_to client_path(c.id), method: :get, class:"client-name" do %>
+          <%=link_to method: :get, class:"client-name" do %>
             <%= c.last_name %><%= " " %><%= c.first_name %>
           <% end %>
           <div class="phone-email hidden", id= "phone-email">
